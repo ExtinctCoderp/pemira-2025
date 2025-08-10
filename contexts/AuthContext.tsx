@@ -43,7 +43,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       }
     } catch (error) {
       console.error('AuthProvider: Error restoring auth data:', error)
-      // Clear corrupted data
+
       localStorage.removeItem('token')
       localStorage.removeItem('user')
     }

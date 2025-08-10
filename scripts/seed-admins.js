@@ -1,15 +1,12 @@
-// Script to create initial admin users
-// Run this after setting up your MongoDB connection
-
 const admins = [
   {
-    username: "voter1",
-    password: "password123", // This will be hashed
+    username: "HanifGanteng",
+    password: "hafiz&arif", // bakal di hash
     role: "voter"
   },
   {
-    username: "operator1", 
-    password: "password123", // This will be hashed
+    username: "BaghasGanteng", 
+    password: "arif&hafiz", 
     role: "operator"
   }
 ]
@@ -38,6 +35,5 @@ async function seedAdmins() {
   }
 }
 
-// Note: You'll need to create a register endpoint or manually add these to your database
 console.log('Please manually create these admin users in your database:')
 console.log(JSON.stringify(admins, null, 2))
