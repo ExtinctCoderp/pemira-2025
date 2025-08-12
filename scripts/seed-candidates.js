@@ -1,21 +1,21 @@
 const candidates = [
   {
-    name: "Ahmad Rizki",
-    class: "XII IPA 1", 
+    name: "Alkayyisa Namira W.",
+    class: "11-E", 
     visionMission: "lorem ipsum",
-    photo: "/candidate-ahmad-rizki.png"
+    photo: "/1.svg"
   },
   {
-    name: "Sari Dewi",
-    class: "XII IPS 2",
+    name: "M. Hasbi Pramudiono",
+    class: "11-B",
     visionMission: "lorem ipsum",
-    photo: "/candidate-sari-dewi.png"
+    photo: "/2.svg"
   },
   {
-    name: "Budi Santoso", 
-    class: "XII IPA 3",
+    name: "Damar Afandi", 
+    class: "11-A",
     visionMission: "lorem ipsum",
-    photo: "/candidate-budi-santoso.png"
+    photo: "/3.svg"
   }
 ]
 
